@@ -7,6 +7,34 @@
     --secondry-color: #43121d;
     --white-color: white;
 }
+
+/* ########################################### */
+#conNo{
+            background-color: #A82C48; 
+            color: white !important;
+            border: 2px solid #A82C48; 
+            transition: all ease-in-out .4s;
+        }
+        #conNo:hover{
+            background-color: white !important; 
+            color: #A82C48; }
+        .nav-link{
+            color: #A82C48;
+            font-weight: bold;
+            padding: 7px 20px !important;
+        }
+        .nav-link:nth-child(''){
+            color: white;
+        }
+        body{
+            height: 700px;
+        }
+
+        nav{
+            width: 100%;
+            position: fixed !important;
+        }
+/* #################   Section:1 ########################## */
 #section1{
     background-image: url(Image/bg-1.jpg);
     height: 600px;
