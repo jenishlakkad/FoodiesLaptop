@@ -7,6 +7,15 @@
     --secondry-color: #43121d;
     --white-color: white;
 }
+.btnHover{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: 2px solid var(--primary-color) !important;
+}
+.btnHover:hover{
+    background-color: var(--white-color);
+    color: var(--primary-color) !important;
+}
 
 /* ########################################### */
 #conNo{
@@ -33,6 +42,7 @@
         nav{
             width: 100%;
             position: fixed !important;
+            z-index: 99;
         }
 /* #################   Section:1 ########################## */
 #section1{
@@ -62,12 +72,12 @@
 #section1 > div > div > p{
     padding-top: 10px;
 }
-#orderNow{
+/* #orderNow{
     background-color: var(--secondry-color);
     color: var(--white-color);
     padding: 8px 25px;
     margin-right: 10px;
-}
+} */
 #orderTommorow{
     margin-left: 10px;
     padding: 8px 25px;
@@ -97,3 +107,89 @@
 /* #section2 > div > div > div:nth-child(0){
     
 } */
+
+/* ###################    Section:-3     ################################ */
+#section3{
+    width: 100%;
+}
+#section3 > div {
+    width: var(--sectionWidth-width);
+    margin: 0 auto;
+}
+#section3 .text > h3{
+    color: var(--secondry-color);
+}
+
+
+/* ###################    Section:-4     ################################ */
+#section4{
+    width: 100%;
+}
+#section4 > div {
+    width: var(--sectionWidth-width);
+    margin: 0 auto;
+}
+#section4 h3{
+    color: var(--secondry-color);
+
+}
+#section4 ul{
+    list-style: none;
+}
+#section4 ul li{
+    
+    font-size: 1rem;
+    color: var(--text-color);
+    line-height: 32px;
+    position: relative;
+    margin-left: 30px;
+
+}
+#section4 ul li::before{
+    position: absolute; 
+    left: -2.1875rem;
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    font-family: "Font Awesome 5 Free";
+    content: '\f00c';
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+/* ###################    Section:-5     ################################ */
+#section5{
+    width: 100%;
+}
+#section5 > div {
+    width: var(--sectionWidth-width);
+    margin: 0 auto;
+    padding: 100px 0px !important;
+}
+#section5 > div > div{
+    margin: 0 auto;
+    text-align: center;
+}
+#section5 > div > div > h2{
+    color: var(--primary-color);
+}
+
+/* ###################    Section:-6     ################################ */
+#section6{
+    width: 100%;
+}
+#section6 > div {
+    width: var(--sectionWidth-width);
+    margin: 0 auto;
+}
+#section6 > div > div{
+    margin: 0 auto;
+    text-align: center;
+}
+#section6 > div > div > h2{
+    color: var(--primary-color);
+}
+#section6 .card-footer {
+    border-top: 1px solid rgb(150, 147, 147) !important;
+}
